@@ -16,18 +16,28 @@ marks = {
 }
 collection_of_coins = {1, 2, 25}
 
-#immutable
+# immutable
 int_variable = 123
 str_variable = "Hi!"
 float_variable = 1.23
 bool_variable = True
 tuple_variable = (1, 2)
-#mutable
+# mutable
 set_variable = {1, 2}
 dict_variable = {"Bob": 1}
 list_variable = [1, 2]
 
 sorted_variables = {
-    "mutable": [set_variable, dict_variable, list_variable],
-    "immutable": [int_variable, str_variable, float_variable, bool_variable, tuple_variable]
+    "mutable": [
+        set_variable, 
+        dict_variable, 
+        list_variable
+    ],
+    "immutable": [
+        int_variable, 
+        str_variable, 
+        float_variable, 
+        bool_variable, 
+        tuple_variable
+    ]
 }
