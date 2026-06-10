@@ -15,3 +15,16 @@ marks = {
     "Sergio": 3,
 }
 collection_of_coins = {1, 2, 25}
+
+a = 123
+b = {"Bob": 1}
+c = "Hi!"
+d = [1, 2]
+e = 1.23
+f = True
+g = (1, 2)
+
+sorted_variables = {
+    "mutable": [b, d],
+    "immutable": [a, c, e, f, g]
+}
