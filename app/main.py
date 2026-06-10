@@ -23,8 +23,9 @@ d = [1, 2]
 e = 1.23
 f = True
 g = (1, 2)
+h = {1, 2}
 
 sorted_variables = {
-    "mutable": [b, d],
+    "mutable": [b, d, h],
     "immutable": [a, c, e, f, g]
 }
