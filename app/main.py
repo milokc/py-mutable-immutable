@@ -29,15 +29,15 @@ list_variable = [1, 2]
 
 sorted_variables = {
     "mutable": [
-        set_variable, 
-        dict_variable, 
+        set_variable,
+        dict_variable,
         list_variable
     ],
     "immutable": [
-        int_variable, 
-        str_variable, 
-        float_variable, 
-        bool_variable, 
+        int_variable,
+        str_variable,
+        float_variable,
+        bool_variable,
         tuple_variable
     ]
 }
